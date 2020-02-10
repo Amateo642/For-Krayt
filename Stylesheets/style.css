@@ -1,0 +1,584 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.slider-screenshots .slider-screenshots-item {
+    margin: 50px -20px;
+    transition: .8s all;
+    position: relative;
+}
+
+.slider-screenshots .slider-screenshots-item img {
+    height: 400px;
+    width: 100%;
+}
+
+.slider-screenshots .slider-screenshots-item.slick-active {
+    transform: scale(1.1);
+    z-index: 10;
+}
+
+.slider-screenshots .slider-screenshots-item.slick-active.slick-center {
+    transform: scale(1.2);
+    z-index: 11;
+}
+
+.slider-screenshots-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.slider-screenshots-arrow:hover {
+    background: linear-gradient(45deg, #fd712c, #f21780);
+    color: #ffffff;
+}
+
+.slider-screenshots-arrow-left {
+    left: -60px;
+}
+
+.slider-screenshots-arrow-right {
+    right: -60px;
+}
+
+.section-title-forH {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    text-align: center;
+    color: #222222;
+}
+
+.common-style-forP {
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+    color: #777777;
+}
+
+.common-style-forP + .common-style-forP {
+    padding-bottom: 100px;
+}
+
+.header-navbar {
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+.header {
+    height: 800px;
+    text-align: left;
+    color: #ffffff;
+    background: url("../images/header-iphones.png") no-repeat right center, linear-gradient(45deg, #fd712c, #f21780);
+}
+
+.navbar a {
+    color: #ffffff;
+}
+
+.navbar-brand {
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.nav-link {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.nav-link.active {
+    background: #ffffff;
+    color: #222222;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+.header-about {
+    width: 500px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.header-about h1 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    font-size: 54px;
+}
+
+.header-about p {
+    font-size: 14px;
+}
+
+.header-about .description {
+    font-weight: 300;
+}
+
+.header-about i {
+    padding-right: 10px;  
+}
+
+/*semibold 600; medium 500; light 300;*/
+
+.header-button {
+    width: 200px;
+    height: 40px;
+    background: #ffffff;
+    border: 3px solid #e25f2d;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+.section-first {
+    min-height: 500px;
+    padding-top: 100px; 
+}
+
+.section-first .icon {
+    color: #f31f79;
+    font-size: 24px;
+}
+
+.section-first h6 {
+    font-size: 24px;
+    color: #222222;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.section-first p {
+    font-size: 14px;
+    color: #777777;
+}
+
+.section-first .line {
+    border-bottom: 1px solid #f3f3f3;
+    padding-bottom: 80px;
+}
+
+.section-first .description-card {
+    position: relative;
+    padding-left: 120px;
+    padding-bottom: 20px; 
+}
+
+.description-card .icon {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    height: 75px;
+    width: 75px;
+    border: 1px solid #f3f3f3;
+    border-radius: 50%;
+    line-height: 75px;
+    text-align: center;
+}
+
+.section-we-dont-leave {
+    min-height: 700px;
+    background: url("../images/we-dont-leave-section-iphone.png") no-repeat left center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    position: relative;
+}
+
+.section-we-dont-leave .description {
+    font-size: 14px;
+    color: #777777;
+    font-weight: 300;
+}
+
+.description + .description {
+    padding-top: 100px;
+}
+
+.section-we-dont-leave .check-circle {
+    font-size: 14px;
+}
+
+.section-we-dont-leave i {
+    padding-right: 10px;
+}
+
+.section-screenshots {
+    min-height: 900px;
+    background: #f7fafc;
+    padding-top: 100px; 
+}
+
+.section-package {
+    min-height: 900px;
+    padding-top: 100px;
+}
+
+.section-package .common {
+    height: 480px;
+    background: #f7fafc;
+    text-align: center;
+    font-size: 14px;
+}
+
+.section-package .common-active {
+    height: 480px;
+    background: #ffffff;
+    text-align: center;
+    font-size: 14px;
+}
+
+.section-package h5 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+}
+
+.section-package .price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    background: #ffffff;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+}
+
+.section-package .price-active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    background: linear-gradient(45deg, #fd712c, #f21780);
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+.section-package .dollar {
+    font-size: 55%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+}
+
+.section-package .sub-m {
+    font-size: 14px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+}
+
+.section-package .description {
+    color: #777777;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+}
+
+.section-package .package + .package {
+    border-top: 1px #e0e0e0 dashed;
+}
+
+.section-package .trial {
+    color: #aaaaaa;
+}
+
+.section-package .common-button {
+    height: 40px;
+    width: 140px;
+    border: 3px solid #e0e0e0;
+    border-radius: 20px;
+    background: #ffffff;
+    color: #222222;
+    font-weight: 500;
+}
+
+.section-package .button-active {
+    height: 40px;
+    width: 140px;
+    border: 3px solid #e0e0e0;
+    border-radius: 20px;
+    background: linear-gradient(45deg, #fd712c, #f21780);
+    font-weight: 500;
+}
+
+/*777777 ; eeeeee; aaaaaa*/
+
+.section-video {
+    min-height: 400px;
+    background: url("../images/video-bg-with-icon.png") center;
+}
+
+.section-customers {
+    min-height: 700px;
+    padding-top: 100px;
+    /* customers-logo background: #f7fafc;*/
+}
+
+.slider {
+    position: relative;
+}
+
+.right {
+    position: absolute;
+    right: -60px;
+    top: 50%;
+    background: linear-gradient(45deg, #fd712c, #f21780); 
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.left {
+    position: absolute;
+    left: -60px;
+    top: 50%;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.slider-wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 100%; 
+}
+
+.slider-content {
+    position: relative;
+    display: flex;
+}
+
+.slider-item {
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+
+.slider-item img {
+    height: 100%;
+    width: 100%;
+}
+
+.section-customers .feedback {
+    background: #f7fafc;
+    color: #777777;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 25px;
+}
+
+.section-customers .feedback-active {
+    background: #ffffff;
+    color: #777777;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 25px;
+}
+
+.feedback-customers {
+    position: relative;
+}
+
+.logo img {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border: 1px solid #f3f3f3;
+    border-radius: 50%;
+}
+
+.section-customers .apple-inc {
+    font-weight: 300;
+}
+
+.section-download {
+    min-height: 500px;
+    text-align: center;
+    color: #222222;
+    background: linear-gradient(45deg, #fd712c, #f21780);
+    background-size: cover;
+    background-position: bottom;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section-download .download-card {
+    display: flex;
+    align-items: center;
+    height: 120px;
+    background: #ffffff;
+}
+
+.section-download .download-logo {
+    width: 120px;
+    line-height: 120px;
+    background: #f7fafc;
+}
+
+.section-download .download-text {
+    padding-left: 10px;
+    text-align: left;
+}
+
+.section-download h2 {
+    font-family: 'Dosis', sans-serif;
+    padding-bottom: 100px;
+}
+
+.section-download h4 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+}
+
+.section-download p {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.footer {
+    height: 180px;
+    background: #222222;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-weight: 300;
+}
+
+.footer i {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.footer .dribble {
+    color: #f31f79;
+}
+
+/* HEADER */ 
+@media (max-width: 1200px) {
+    .header {
+        height: 700px;
+        background-size: 50%, auto;
+    }
+    .header-navbar {
+        margin-bottom: 70px;
+    }
+}
+
+@media (max-width: 992px) {
+    .header {
+        background-position: bottom right;
+        background-size: 70%, auto;
+    }
+    .header-navbar {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-navbar {
+        margin-bottom: 30px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .header {
+        height: 642px;
+        background: linear-gradient(45deg, #fd712c, #f21780);
+    }
+    .header-button-wrapper {
+        text-align: center;
+    }
+    .header-about {
+        text-align: center;
+    }
+    .header-about p:not(.description) {
+        text-align: left;
+        padding-left: 80px;
+    }
+}
+
+/* section-we-dont-leave */
+@media (max-width: 1200px) {
+    .section-we-dont-leave {
+        background-size: 75%; 
+    }
+}
+
+/*section-package*/
+@media (max-width: 768px) {
+    .col-sm-6 {
+        padding-bottom: 100px;
+    }
+}
+
+@media (max-width: 576px) {
+    .col-sm-6 {
+        padding-bottom: 100px;
+    }
+}
+
+/*section-video*/
+@media (max-width: 1200px) {
+    .section-video {
+        background-position: center;
+    }
+}
+
+@media (max-width: 992px) {
+    .section-video {
+        background-position: center; 
+    }
+} 
+
+@media (max-width: 768px)  {
+    .section-video {
+        background-position: center; 
+    }
+
+}
+
+@media (max-width: 576px) {
+    .section-video {
+        background-position: center; 
+    }
+}
+
+/*section-package and section-download*/
+@media (max-width: 992px) {
+    .col-md-12 {
+        padding-bottom: 100px; 
+    }
+}
+
+@media (max-width: 768px) {
+    .col-md-12 {
+        padding-bottom: 100px; 
+    }
+}
+
+@media (max-width: 576px) {
+    .col-md-12 {
+        padding-bottom: 100px; 
+    }
+}
